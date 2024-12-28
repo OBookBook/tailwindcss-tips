@@ -3,6 +3,7 @@ import Tips3 from "./components/Tips3";
 import Tips4_5 from "./components/Tips4_5";
 import Tips6 from "./components/Tips6";
 import Tips7 from "./components/Tips7_9";
+import Tips9 from "./components/Tips7_9.5";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       {/* <Tips3 /> */}
       {/* <Tips4_5 /> */}
       {/* <Tips6 /> */}
-      <Tips7 />
+      {/* <Tips7 /> */}
+      <Tips9 />
     </main>
   );
 }
