@@ -1,3 +1,5 @@
+import ColorThemeSelector from "./components/ColorThemeSelector";
+import Tips10 from "./components/Tips10";
 import Tips1_2 from "./components/Tips1_2";
 import Tips3 from "./components/Tips3";
 import Tips4_5 from "./components/Tips4_5";
@@ -13,7 +15,8 @@ export default function Home() {
       {/* <Tips4_5 /> */}
       {/* <Tips6 /> */}
       {/* <Tips7 /> */}
-      <Tips9 />
+      {/* <Tips9 /> */}
+      <Tips10 />
     </main>
   );
 }
