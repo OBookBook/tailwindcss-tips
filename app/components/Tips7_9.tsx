@@ -6,7 +6,7 @@ const Tips7 = () => {
     <div className="flex gap-3">
       <Button className="bg-slate-600">作成</Button>
       <Button className="bg-red-600">削除</Button>
-      <Button>保存</Button>
+      <Button pending={true}>保存</Button>
     </div>
   );
 };
